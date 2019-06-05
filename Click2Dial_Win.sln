@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28922.388
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Click2Dial_Win", "Click2Dial_Win\Click2Dial_Win.csproj", "{7318B609-3516-4815-8C84-9E0A5690351A}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7318B609-3516-4815-8C84-9E0A5690351A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7318B609-3516-4815-8C84-9E0A5690351A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7318B609-3516-4815-8C84-9E0A5690351A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7318B609-3516-4815-8C84-9E0A5690351A}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DFC40883-2AB6-49BC-BD8E-438AB8DD4566}
+	EndGlobalSection
+EndGlobal
