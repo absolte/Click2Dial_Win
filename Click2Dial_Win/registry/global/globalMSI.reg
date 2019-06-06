@@ -36,4 +36,4 @@
 "sip"="Click2Dial_Win"
 
 [HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications]
-"Click2Dial_Win"="Software\\Program Files (x86)\Click2Dial_Win\Click2Dial_Win\\Capabilities"
+"Click2Dial_Win"="Software\\Click2Dial_Win\\Capabilities"
