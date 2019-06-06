@@ -1,0 +1,39 @@
+  Windows Registry Editor Version 5.00
+
+[HKEY_CLASSES_ROOT\Click2Dial_Win]
+"URL Protocol"=""
+@="URL:tel"
+"DefaultIcon"="C:\\Program Files (x86)\\Click2Dial_Win\\Click2Dial_Win.exe\",1"
+
+[HKEY_CLASSES_ROOT\Click2Dial_Win\shell]
+
+[HKEY_CLASSES_ROOT\Click2Dial_Win\shell\open]
+
+[HKEY_CLASSES_ROOT\Click2Dial_Win\shell\open\command]
+@="\"C:\\Program Files (x86)\\Click2Dial_Win\\Click2Dial_Win.exe\" \"%1\""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\callto]
+@="URL:callto"
+"URL Protocol"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\tel]
+@="URL:tel"
+"URL Protocol"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Classes\sip]
+@="URL:sip"
+"URL Protocol"=""
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Click2Dial_Win]
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Click2Dial_Win\Capabilities]
+"ApplicationDescription"="Click2Dial_Win"
+"ApplicationName"="Click2Dial_Win"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\Click2Dial_Win\Capabilities\URLAssociations]
+"callto"="Click2Dial_Win"
+"tel"="Click2Dial_Win"
+"sip"="Click2Dial_Win"
+
+[HKEY_LOCAL_MACHINE\SOFTWARE\RegisteredApplications]
+"Click2Dial_Win"="Software\\Program Files (x86)\Click2Dial_Win\Click2Dial_Win\\Capabilities"
