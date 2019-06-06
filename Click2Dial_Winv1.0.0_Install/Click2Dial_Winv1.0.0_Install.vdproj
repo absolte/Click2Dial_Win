@@ -28,13 +28,13 @@
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_26BA72DD6D51288C691B7B770EE4C84E"
+        "OwnerKey" = "8:_E94B79AD50084C3DB007D4A997504F16"
         "MsmSig" = "8:_UNDEFINED"
         }
         "Entry"
         {
         "MsmKey" = "8:_UNDEFINED"
-        "OwnerKey" = "8:_E94B79AD50084C3DB007D4A997504F16"
+        "OwnerKey" = "8:_26BA72DD6D51288C691B7B770EE4C84E"
         "MsmSig" = "8:_UNDEFINED"
         }
     }
@@ -55,6 +55,14 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+            }
         }
         "Release"
         {
@@ -71,6 +79,22 @@
         "PrivateKeyFile" = "8:"
         "TimeStampServer" = "8:"
         "InstallerBootstrapper" = "3:2"
+            "BootstrapperCfg:{63ACBE69-63AA-4F98-B2B6-99F9E24495F2}"
+            {
+            "Enabled" = "11:TRUE"
+            "PromptEnabled" = "11:TRUE"
+            "PrerequisitesLocation" = "2:1"
+            "Url" = "8:"
+            "ComponentsUrl" = "8:"
+                "Items"
+                {
+                    "{EDC2488A-8267-493A-A98E-7D9C3B36CDF3}:.NETFramework,Version=v4.6.1"
+                    {
+                    "Name" = "8:Microsoft .NET Framework 4.6.1 (x86 and x64)"
+                    "ProductCode" = "8:.NETFramework,Version=v4.6.1"
+                    }
+                }
+            }
         }
     }
     "Deployable"
@@ -188,7 +212,7 @@
         "Name" = "8:Microsoft Visual Studio"
         "ProductName" = "8:Click2Dial_Winv1.0.0_Install"
         "ProductCode" = "8:{B7C9503D-D436-4584-BB97-47CFCF50F40C}"
-        "PackageCode" = "8:{271982BE-5287-4E91-86D1-55C9387FEC5D}"
+        "PackageCode" = "8:{1882F396-A647-497D-A3C1-5E2CF8A68908}"
         "UpgradeCode" = "8:{2A1A21F0-38DD-43BC-A2C2-5055CCF1CE10}"
         "AspNetVersion" = "8:"
         "RestartWWWService" = "11:FALSE"
@@ -970,7 +994,7 @@
         {
             "{5259A561-127C-4D43-A0A1-72F10C7B3BF8}:_E94B79AD50084C3DB007D4A997504F16"
             {
-            "SourcePath" = "8:"
+            "SourcePath" = "8:..\\Click2Dial_Win\\obj\\Release\\Click2Dial_Win.exe"
             "TargetName" = "8:"
             "Tag" = "8:"
             "Folder" = "8:_A6D1449773F54064810CB0A42F39E87A"
